@@ -7,14 +7,12 @@ body {
 }
 .myheader {
     max-height: 10%;
-
     background-color: rgb(250, 235, 215);
     border-top: none;
     color: black; 
 }
 .head-logo {
     margin-top: 0%;
-    /* max-inline-size: 200px; */
     max-width: 15vw; 
     max-height: 15vh;
 
@@ -63,6 +61,20 @@ h3 {
 .card {
     padding: 0.5rem;
     background-color: antiquewhite;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.card-button {
+    align-items: end;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+.card-right {
+    display: flex;
 }
 p {
     padding-bottom: 0.25rem;

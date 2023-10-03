@@ -79,8 +79,18 @@ blockquote {
     object-fit:cover;
 }
 .card {
+    position: relative;
     max-width: 50rem;
 }
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.card-text {
+    flex: 1;
+}
+
 .newsletter-section {
     background-color: rgb(250, 235, 215,0.5);
     margin-left: 25%;

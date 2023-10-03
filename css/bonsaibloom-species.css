@@ -38,7 +38,6 @@ h2, h1 {
     align-items: center;
     color: black;
     padding-bottom: 3rem;
-    padding-top: 3rem;
     font-weight: 500;
     text-decoration: underline;
 }
@@ -46,12 +45,23 @@ h3 {
     font-family: 'Noto Sans TC', sans-serif;
     font-weight: 300;
 }
+.species-container {
+    background-color: antiquewhite;
+    margin-top: 1em;
+    border-radius: 5px;
+    padding-top: 0;
+}
 .species-guide-section {
     background-color: rgb(250, 235, 215. 0.8);
 }
 .card {
     background-color: antiquewhite;
     height: 90vh;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .mycardimages {
     max-height: 50vh;
